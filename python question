@@ -1,1 +1,25 @@
+# name =input ("enter the name=")
+# age=input("enter the age=")
+# college=input("enter the college=")
+
+# print("name:",name)
+# print("age:",age)
+# print("college name:",college)
+
+
+# name =input ("enter the name=")
+# age=input("enter the age=")
+# college=input("enter the college=")
+
+# print("name:",name)
+# print("age:",age)
+# print("i am study at:",college)
+
+
+name =input ("enter the name=")
+price=int(input("enter the price="))
+quantity=int(input("enter the quantity="))
+sum=price*quantity
+print(sum)
+
 

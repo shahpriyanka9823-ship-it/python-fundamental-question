@@ -1,0 +1,121 @@
+
+# **Level:** Beginner
+
+# **Purpose:** Make programs perform calculations and make decisions.
+
+# ### Topics
+# - Arithmetic operators
+# - Comparison operators
+# - Assignment operators
+# - Logical operators
+# - Membership operators
+
+# - Identity operators (introduction)
+# - Operator precedence
+# - if, elif, else
+# - Nested conditions
+# - Conditional expressions
+
+# ### 3 Coding Exercises
+# 1. Check whether a number is positive, negative, or zero.
+
+
+# usr = int(input('enter'))
+# if usr % 2 == 0:
+#     pass
+
+# elif usr % 2 == 0:
+#     pass
+
+# else:
+#     pass
+
+
+
+
+# 2. Create a student grading system.
+
+# user_input = int(input('enter marks:'))
+
+# if user_input < 40:
+#     print('fails')
+
+# elif user_input > 40 and user_input < 80:
+#     print('good')
+
+# else:
+#     print('better')
+
+
+# 3. Build an age-based eligibility checker.
+
+
+# ### 3 Mini Projects
+# 1. ATM Eligibility Simulator.
+
+
+
+# user_input = input('''
+#                 1. balance add
+#                 2. create account
+#                 3. deposite
+#                     ''')
+# balance = 0
+
+# if user_input == '1':
+#     user_balance_input = int(input('enter a number:'))
+#     balance = user_balance_input
+#     print(f'Your Balance{balance}')
+
+# elif user_input == '2':
+
+#     input_name = input('lenter name:')
+#     input_email = input('lenter email:')
+#     input_address = input('lenter address:')
+
+#     print(input_name,input_email,input_address)
+
+
+# elif user_input == '3':
+#     user_input1 = int(input('enter balance:'))
+#     result = balance - user_input1
+#     print(f'your current balance:{balance}')
+# else:
+#     print('invalid input!')
+
+
+
+
+
+# // Input units consumed. Calculate the bill using these slabs:
+# // - First 100 units: Rs. 5 per unit
+# // - Next 100 units: Rs. 7 per unit
+# // - Above 200 units: Rs. 10 per unit
+# // Calculate progressively, not by charging every unit at the highest slab. Handle zero and
+# // negative input sensibly.
+
+
+print('''
+        First 100 units: Rs. 5 per unit
+        Next 100 units: Rs. 7 per unit
+        Above 200 units: Rs. 10 per unit
+        ''')
+
+
+user_input = int(input('enter units:'))
+
+
+if user_input > 100:
+    print(' Rs. 5 per unit')
+    result = user_input * 5
+    print(result)
+
+elif user_input > 100 and user_input < 200:
+    print(' Rs. 5 per unit')
+    result = user_input * 7
+    print(result)
+
+else:
+    print(' Rs. 5 per unit')
+    result = user_input * 10
+    print(result)

@@ -119,3 +119,185 @@ else:
     print(' Rs. 5 per unit')
     result = user_input * 10
     print(result)
+
+
+
+
+# // Q02. Shopping Discount Calculator
+# // Calculate discount based on purchase amount:
+# // - Below Rs. 1,000: no discount
+# // - Rs. 1,000 to Rs. 2,999.99: 5%
+# // - Rs. 3,000 to Rs. 4,999.99: 10%
+# // - Rs. 5,000 and above: 15%
+
+
+
+# print('''
+#         Below Rs. 1,000: no discount
+#         Rs. 1,000 to Rs. 2,999.99: 5%
+#         Rs. 3,000 to Rs. 4,999.99: 10%
+#         Rs. 5,000 and above: 15%
+#         ''')
+
+
+# user_input = int(input('enter rupees:'))
+# if user_input < 1000:t
+#     print(' no discount ')
+    
+    
+
+# elif user_input > 1000 and user_input < 2999.99:
+#     print(' 5 percent  discount')
+#     result= user_input * (5/ 100.0)
+#     print(result)
+
+# elif user_input > 3000 and user_input < 4999.99:
+#     print(' 10 percent  discount')
+#     result= user_input * (10/ 100.0)
+#     print(result)  
+
+# else:
+#     print(' 15 percent discount ')
+#     result= user_input * (15/ 100.0)
+#     print(result)
+
+
+
+# Q11. Compare two prices and identify the higher price.
+# price1 = int(input('enter the price='))
+# price2 = int(input('enter the price='))
+
+# if price1 > price2:
+#     print('highest price', price1)
+# else:
+#     print('highest price', price2)
+
+
+
+
+
+
+
+# Q12. Identify the lower price.
+# price1 = int(input('enter the price='))
+# price2 = int(input('enter the price='))
+
+# if price1 > price2:
+#     print('lowest price', price2)
+# else:
+#     print('lowest price', price1)
+
+
+
+
+
+
+# Q13. Check whether two prices are equal.
+# price1 = int(input('enter the price='))
+# price2 = int(input('enter the price='))
+
+# if price1 == price2:
+#     print('prices are equal')
+# else:
+#     print('prices are not equal')
+
+
+
+# Q14. Check whether a stock price is above 100.
+# price = int(input('enter the stock price='))
+
+# if price > 100:
+#     print('price is above 100')
+# else:
+#     print('price is not above 100')
+
+
+
+# Q15. Check whether a stock price is below 100.
+# price = int(input('enter the stock price='))
+
+# if price < 100:
+#     print('price is below 100')
+# else:
+#     print('price is not below 100')
+
+
+
+
+
+
+# Q16. Check whether a price is between 100 and 200.
+# price = int(input('enter the price='))
+
+# if price >= 100 and price <= 200:
+#     print('price is between 100 and 200')
+# else:
+#     print('price is not between 100 and 200')
+
+
+
+
+
+
+# Q17. Identify whether a price is positive or negative.
+# price = int(input('enter the price='))
+
+# if price > 0:
+#     print('positive price')
+# elif price < 0:
+#     print('negative price')
+# else:
+#     print('price is zero')
+
+
+
+
+
+# Q18. Check whether trading volume exceeds 10000.
+# volume = int(input('enter the trading volume='))
+
+# if volume > 10000:
+#     print('volume exceeds 10000')
+# else:
+#     print('volume does not exceed 10000')
+
+
+
+
+
+# Q19. Compare today's closing price with yesterday's.
+# price1 = int(input("enter today's closing price="))
+# price2 = int(input("enter yesterday's closing price="))
+
+# if price1 > price2:
+#     print('price increased')
+# elif price1 < price2:
+#     print('price decreased')
+# else:
+#     print('price is unchanged')
+
+
+
+
+
+# Q20. Create a price comparison analyzer.
+# price1 = int(input('enter the first price='))
+# price2 = int(input('enter the second price='))
+
+# if price1 > price2:
+#     print('first price is higher')
+#     print('highest price', price1)
+#     print('lowest price', price2)
+
+# elif price1 < price2:
+#     print('second price is higher')
+#     print('highest price', price2)
+#     print('lowest price', price1)
+
+# else:
+#     print('both prices are equal')
+
+
+
+
+
